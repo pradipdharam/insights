@@ -1,6 +1,3 @@
-2026-08-01-1-kafka-idempotency.md
-
----
 
 layout: post
 title: "#1 𝗞𝗮𝗳𝗸𝗮 + 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝗰𝘆"
