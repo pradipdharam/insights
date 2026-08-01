@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Pradip Dharam"
   avatar : "https://media.licdn.com/dms/image/v2/D4D03AQHnicq77Rxyrw/profile-displayphoto-scale_400_400/B4DZzrKPEYKIAg-/0/1773471857754?e=1787184000&v=beta&t=hHmA3twQFjwpvQO7QWLcH58l7ifZ3LYjyk7j1ESaQpM"
-  bio    : "Senior Software Engineer (Python) | Scalable APIs & Microservices | Distributed Systems | FinTech & AI Platforms. [Views are my own, not my employer’s]"
+  bio    : "Senior Software Engineer (Python), Scalable APIs & Microservices, Distributed Systems, FinTech & AI Platforms. [Views are my own, not my employer’s]"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
