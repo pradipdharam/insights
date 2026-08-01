@@ -28,7 +28,7 @@ search: true
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 url: "https://pradipdharam.github.io"
-baseurl: "/pradip"
+baseurl: "/insights"
 
 # Outputting
 permalink: /:categories/:title/
