@@ -2,15 +2,15 @@
 title: "#1 𝗞𝗮𝗳𝗸𝗮 + 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝗰𝘆"
 date: 2026-08-01
 categories:
-* Post
+- Post
 tags:
-* kafka
-* distributed-systems
-* system-design
-* microservices
-* backend-engineering
-* event-driven
-* scalability
+- kafka
+- distributed-systems
+- system-design
+- microservices
+- backend-engineering
+- event-driven
+- scalability
   excerpt: "A brief overview of why designing for idempotency is essential to building fault-tolerant event-driven systems."
   permalink:
   toc: false
