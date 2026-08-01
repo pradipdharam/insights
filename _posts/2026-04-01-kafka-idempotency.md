@@ -1,21 +1,25 @@
+2026-08-01-1-kafka-idempotency.md
+
 ---
+
 layout: post
 title: "#1 𝗞𝗮𝗳𝗸𝗮 + 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝗰𝘆"
 date: 2026-08-01
 categories:
-  - Post
-tags:
-  - kafka
-  - distributed-systems
-  - backend-engineering
-  - system-design
-  - microservices
-  - event-driven
-  - scalability
-  - software-engineering
-excerpt: "Duplicate processing in event-driven systems makes designing for idempotency essential."
-permalink:
-toc: false
+
+* Post
+  tags:
+* kafka
+* distributed-systems
+* system-design
+* microservices
+* backend-engineering
+* event-driven
+* scalability
+  excerpt: "A brief overview of why designing for idempotency is essential to building fault-tolerant event-driven systems."
+  permalink:
+  toc: false
+
 ---
 
 #1 𝗞𝗮𝗳𝗸𝗮 + 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝗰𝘆
@@ -26,9 +30,10 @@ They fail silently with duplicate processing.
 I learned this the hard way.
 
 In event-driven systems, retries are inevitable:
-- Consumer crashes
-- Network glitches
-- Reprocessing
+
+* Consumer crashes
+* Network glitches
+* Reprocessing
 
 👉 Result: Same event processed multiple times
 
@@ -36,9 +41,10 @@ The fix is not “prevent retries”
 The fix is design for idempotency
 
 Simple rules:
-- Use unique event IDs
-- Maintain processed state
-- Make operations repeat-safe
+
+* Use unique event IDs
+* Maintain processed state
+* Make operations repeat-safe
 
 If your system breaks on duplicate events,
 it’s not fault-tolerant yet.
