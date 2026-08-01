@@ -11,10 +11,6 @@ tags:
 - backend-engineering
 - event-driven
 - scalability
-  excerpt: "A brief overview of why designing for idempotency is essential to building fault-tolerant event-driven systems."
-  permalink:
-  toc: false
-
 ---
 
 #1 𝗞𝗮𝗳𝗸𝗮 + 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝗰𝘆
