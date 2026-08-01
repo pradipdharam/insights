@@ -3,9 +3,8 @@ layout: post
 title: "#1 𝗞𝗮𝗳𝗸𝗮 + 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝗰𝘆"
 date: 2026-08-01
 categories:
-
 * Post
-  tags:
+tags:
 * kafka
 * distributed-systems
 * system-design
