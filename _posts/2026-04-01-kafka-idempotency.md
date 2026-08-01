@@ -1,6 +1,3 @@
-2026-08-01-kafka-idempotency.md
-
-```markdown
 ---
 layout: post
 title: " #1 𝗞𝗮𝗳𝗸𝗮 + 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝗰𝘆"
